@@ -42,9 +42,8 @@ const Home = () => {
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 z-40'
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet unde
-            modi quo, aspernatur, sunt, non minus sit excepturi eius saepe
-            similique.
+            I am a Frontend Engineer based in Nigeria, focused in designing
+            great websites and web-applications for easy access by everyone.
           </motion.p>
 
           {/* project btn */}

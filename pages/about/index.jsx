@@ -29,14 +29,14 @@ const aboutData = [
           <FaCss3 />,
           <FaJs />,
           <FaReact />,
-          // <SiNextdotjs />,
+          <SiNextdotjs />,
           // <SiFramer />,
           // <FaWordpress />,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma />],
       },
     ],
   },
@@ -56,18 +56,18 @@ const aboutData = [
   {
     title: "experience",
     info: [
+      // {
+      //   title: "UX/UI Designer - XYZ Company",
+      //   stage: "2012 - 2023",
+      // },
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Web Developer - Freelancer",
+        stage: "2022 - 2024",
       },
-      {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
+      // {
+      //   title: "Intern - DEF Corporation",
+      //   stage: "2008 - 2010",
+      // },
     ],
   },
   {
@@ -122,7 +122,7 @@ const About = () => {
             exit='hidden'
             className='h2'
           >
-            Captivating <span className='text-accent'>stories</span>
+            Meet <span className='text-accent'>Babatunde Segun</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -131,9 +131,9 @@ const About = () => {
             exit='hidden'
             className='max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 text-sm'
           >
-            10 years ago, I began freelancing as a develoer, Since then, I've
-            done remote work for agencies, counsulted for startups, and
-            collaborated on digital products for business and consumer
+            Few years ago, I began freelancing as a develoer, Since then, I've
+            done remote work for friends and business owner helping me to become
+            a better Frontend Engineer
           </motion.p>
 
           {/* counter */}
@@ -149,7 +149,7 @@ const About = () => {
               {/* experince */}
               <div className='relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0'>
                 <div className='text-2xl xl:text-4xl font-extrabold text-accent'>
-                  <CountUp start={0} end={10} delay={2} duration={5} /> +
+                  <CountUp start={0} end={2} delay={2} duration={5} /> +
                 </div>
                 <div className='text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]'>
                   Years of experience

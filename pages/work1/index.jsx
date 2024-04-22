@@ -36,8 +36,6 @@ const Work1 = () => {
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-              excepturi provident totam soluta numquam saepe nulla nobis odio
-              aspernatur, at ipsum. Similique architec
             </motion.p>
           </div>
           <motion.div

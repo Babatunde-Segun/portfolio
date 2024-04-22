@@ -137,6 +137,7 @@ const WorkSlider1 = () => {
         disableOnInteraction: false,
       }}
     >
+      {/* could have make the array just one, but let stick with two */}
       {workSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index}>

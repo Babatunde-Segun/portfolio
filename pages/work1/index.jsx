@@ -35,7 +35,7 @@ const Work1 = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
+              Collection of my project
             </motion.p>
           </div>
           <motion.div

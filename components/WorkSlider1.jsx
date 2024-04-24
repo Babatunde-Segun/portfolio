@@ -1,5 +1,6 @@
 // data
 import { BsArrowRight } from "react-icons/Bs";
+// import { BsArrowRight } from "react-icons/Bs";
 // import { HiArrowDownRight } from "react-icons/hi2";
 import Image from "next/image";
 
@@ -48,6 +49,18 @@ const workSlides = {
         //   src: "www.w3schools.com",
         //   details: "details",
         // },
+      ],
+    },
+
+    {
+      images: [
+        {
+          title: "githubfinder",
+          path: "/githubfinder.png",
+          src: "https://github-finder-lc55.onrender.com/",
+          details:
+            " A responsive project styled with tailwind css which consumes the github-api which allow user to search for the profile and repo of githubers",
+        },
       ],
     },
     {
@@ -157,6 +170,24 @@ const WorkSlider1 = () => {
                           height={500}
                           alt={image.title}
                         />
+
+                        {/* overlay gradient */}
+                        <div className="absolute inset-0 bg-gradient-to-l from-transparent via-[#e838ce] to-[#4a22bd] opacity-0 group-hover:opacity-80 transition-all duration-300"></div>
+                        {/* title */}
+                        <div className="absolute bottom-0 translate-y-full group-hover:-translate-y-[50%]  group-hover:xl:-translate-y-[75%] transition-all duration-300">
+                          <div className="flex items-center gap-x-2 text-[13px] tracking-[0.2em]">
+                            {/* title part 1 */}
+                            <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150">
+                              Live
+                            </div>
+                            {/* title part 2 */}
+                            <div className="delay-100">Project</div>
+                            {/* icons */}
+                            <div className="text-xl translate-y-[500%] group-hover:translate-y-0  delay-200 duration-300 transition-all">
+                              <BsArrowRight />
+                            </div>
+                          </div>
+                        </div>
 
                         <div className="flex-wrap">
                           <p>{image.details}</p>

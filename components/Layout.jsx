@@ -5,7 +5,7 @@ import TopLeftImg from "../components/TopLeftImg";
 
 // fonts
 
-import { Sora } from "@next/font/google";
+import { Sora } from "next/font/google";
 
 // font settings
 

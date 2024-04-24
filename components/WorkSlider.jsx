@@ -1,6 +1,6 @@
 // data
 "use client";
-import { BsArrowRight } from "react-icons/Bs";
+import { HiArrowRight } from "react-icons/hi2";
 // import { HiArrowDownRight } from "react-icons/hi2";
 import Image from "next/image";
 
@@ -106,7 +106,7 @@ const WorkSlider = () => {
                             <div className="delay-100">Project</div>
                             {/* icons */}
                             <div className="text-xl translate-y-[500%] group-hover:translate-y-0  delay-200 duration-300 transition-all">
-                              <BsArrowRight />
+                              <HiArrowRight />
                             </div>
                           </div>
                         </div>

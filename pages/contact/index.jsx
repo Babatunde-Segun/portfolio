@@ -4,7 +4,7 @@
 import Circles from "../../components/Circles";
 import { useState } from "react";
 
-import { BsArrowRight } from "react-icons/Bs";
+import { HiArrowRight } from "react-icons/hi2";
 
 import { motion } from "framer-motion";
 

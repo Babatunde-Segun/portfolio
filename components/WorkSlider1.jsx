@@ -1,4 +1,5 @@
 // data
+"use client";
 import { BsArrowRight } from "react-icons/Bs";
 // import { BsArrowRight } from "react-icons/Bs";
 // import { HiArrowDownRight } from "react-icons/hi2";
@@ -87,7 +88,6 @@ const workSlides = {
       ],
     },
 
-   
     {
       images: [
         {

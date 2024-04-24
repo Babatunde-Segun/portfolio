@@ -1,15 +1,10 @@
 import WorkSlider1 from "../../components/WorkSlider1";
 
-import { serviceData } from "../../components/ServiceSlider";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
-
-// const { serviceData } = ServiceSlider;
-
-console.log(serviceData);
 
 const Work1 = () => {
   return (

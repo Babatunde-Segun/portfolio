@@ -1,4 +1,5 @@
 // components
+"use client";
 
 import Circles from "../../components/Circles";
 import { useState } from "react";

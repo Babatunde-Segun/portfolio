@@ -87,17 +87,7 @@ const workSlides = {
       ],
     },
 
-    {
-      images: [
-        {
-          title: "githubfinder",
-          path: "/thumb4.jpg",
-          src: "www.w3schools.com",
-          details:
-            "A React responsive web application use for find by user to find search for profile of github users ",
-        },
-      ],
-    },
+   
     {
       images: [
         {
